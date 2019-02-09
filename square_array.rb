@@ -1,3 +1,5 @@
 def square_array(array)
-  array.each { |a| a**2}
+new_array = []
+  array.each { |a|new_array.push(a**2)}
+  return new_array
 end
